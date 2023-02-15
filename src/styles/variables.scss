@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+$Inter: 'Inter', sans-serif;
+$bg: #1E5AFA;
+$white: #fff;
+$font-color: #FAFAFA;
+$font-size-primary: 18px;
+$regular: 500;
+$bold:700;
+$medium: 600;
+
+//spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+//border-radius
+$border-radius: 12px;
+
+//Navbar height
+$nav-height: 100px;
+
+@mixin breakpoint($point){
+    @if $point == md{
+        // 768px
+        @media(min-width: 48em){
+            @content;
+        }
+    }
+}

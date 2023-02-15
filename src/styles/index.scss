@@ -1,0 +1,11 @@
+@import './variables.scss'; 
+
+body{
+    width: 100%;
+    background-color: $bg;
+    font-family: $Inter;
+}
+
+#root{
+    height: 100%;
+}

@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+
+.Card{
+    width: 98%;
+    font-family: $Inter;
+    box-shadow: 2px 2px 20px #707070;
+    border-radius: 12px;
+    margin: 10px 8px;
+}
+
+.Card__wrapper{
+    padding: 15px 25px;
+}
+
+.Card__content{
+    font-size: 14px;
+    font-weight: 200;
+    color: #5F7285;
+}
+
+.Card__profile__img{
+    width: 70px;
+    margin-right: 10px;
+}
+
+.Card__profile{
+    display: flex;
+    margin-bottom: 0px !important;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Card__desc__one{
+    font-size: 14px;
+    font-weight: 300;
+    color: #1B263D;
+}
+
+.Card__desc__two{
+    font-size: 12px;
+    font-weight: 200;
+    
+}

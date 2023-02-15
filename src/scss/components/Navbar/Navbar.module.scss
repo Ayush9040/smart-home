@@ -1,0 +1,75 @@
+@import '../../../styles/variables.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar__wrapper{
+    background: $bg;
+    height: $nav-height;
+}
+
+.Navbar{
+    margin-right: 12vw;
+    margin-left: 12vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $Inter;
+}
+
+.logo__container{
+    margin-top: $spacing-lg + 15px;
+    margin-left: 180px;
+}
+
+.logo{
+    font-size: 32px;
+    color: $font-color;    
+    font-weight: $bold;
+    text-decoration: none;
+}
+
+.Navbar__login{
+    color: $font-color;
+    font-size: $font-size-primary;
+    font-weight: $regular;
+    margin-right: 15px;
+}
+
+.Navbar__content__links{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0px !important ;
+    align-items: center;
+    li{
+        margin-right: 8px;
+        a{
+            font-weight: $regular;
+            color: $font-color;
+            text-decoration: none;
+        }
+    }
+}
+
+.Navbar__right{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px !important;
+    li{
+        a{
+            font-size: $font-size-primary - 1;
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}
+
+.Navbar__signup{
+    border: none;
+    padding: 8px 12px;
+    font-size: $font-size-primary !important;
+    font-weight: $medium;
+}

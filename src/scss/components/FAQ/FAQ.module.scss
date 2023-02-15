@@ -1,0 +1,20 @@
+@import '../../../styles/variables.scss';
+
+.FAQ{
+    margin-right: 12vw;
+    margin-left: 12vw;
+    padding-top: 10%;
+}
+
+.FAQ__heading{
+    text-align: center;
+    font-size: 85px;
+    font-weight: $bold;
+    color: #313131;
+}
+
+.FAQ__Acc{
+    margin-top: 10%;
+    padding-right: 12%;
+    padding-left: 12%;
+}

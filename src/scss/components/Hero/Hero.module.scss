@@ -1,0 +1,47 @@
+@import '../../../styles/variables.scss';
+
+.Hero{
+    height: 87vh;
+    background-color: $bg;
+    font-family: $Inter;
+}
+
+.Hero__container{
+    margin-left: 12vw;
+    margin-right: 12vw;
+    padding: 2vw;
+}
+
+.Hero__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    h1{
+        width: 50%;
+    }
+    p{
+        width: 70%;
+    }
+}
+
+.hero__heading{
+    font-size: 85px;
+    color: $font-color;
+}
+
+.hero__content{
+    font-size: $font-size-primary;
+    color: $font-color;
+    margin-top: $spacing-md;
+}
+
+.hero__btn{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img__container{
+    text-align: center;
+}

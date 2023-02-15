@@ -1,0 +1,25 @@
+@import '../../../styles/variables.scss';
+
+.Testimonial{
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-family: $Inter;
+}
+
+.Testimonial__heading{
+    text-align: center;
+    font-size: 85px;
+    font-weight: $bold;
+    color: #313131;
+}
+
+.Testimonial__content{
+    text-align: center;
+    padding: 0px 200px;
+    padding-top: 10px;
+    color: #575757;
+}
+
+.Testimonial__review__sec{
+    margin-top: 80px;
+}
